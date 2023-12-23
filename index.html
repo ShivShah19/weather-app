@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="current-info">
+            <div class="date-time">
+                <div class="time" id="time">
+                    12:30 <span id="AM-PM">PM</span>
+                </div>
+                <div class="date" id="date">
+                    Monday, 24 November
+                </div>
+                <div class="current-weather" id="current-weather">
+                    <div class="weather-data">
+                        <div>Temperature</div>
+                        <div>-- &#176; C</div>
+                    </div>
+                    <div class="weather-data">
+                        <div>Humidity</div>
+                        <div>-- %</div>
+                    </div>
+                    <div class="weather-data">
+                        <div>Pressure</div>
+                        <div>-- hPa</div>
+                    </div>
+                    <div class="weather-data">
+                        <div>Wind Speed</div>
+                        <div>-- m/s</div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="location-container">
+                <div class="time-zone" id="time-zone">Asia</div>
+                <div class="location" id="location">--</div>
+            </div>
+        </div>
+    </div>
+    <div class="future-forecast">
+            <div class="today" id="today">
+                <div>
+                    <img src="https://openweathermap.org/img/wn/10d@4x.png" alt="weather-icon">
+                    <div id="title" style="display: flex; justify-content: center; font-weight: 200;"></div>
+                </div>
+                <div class="weather-item-today">
+                    <div class="day">Monday</div>
+                    <div class="temp">day : --&#176;</div><br>
+                    <div class="temp">night : --&#176;</div>
+                </div>
+            </div>
+            <div class="future-weather" id="future-weather">
+        
+            <div class="weather-item">
+                <div class="day">Tuesday</div>
+                <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon">
+                <div class="temp">day : --&#176;</div>
+                <div class="temp">night : --&#176;</div>
+            </div>
+            <div class="weather-item">
+                <div class="day">Wednesday</div>
+                <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon">
+                <div class="temp">day : --&#176;</div>
+                <div class="temp">night : --&#176;</div>
+            </div>
+            <div class="weather-item">
+                <div class="day">Thursday</div>
+                <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon">
+                <div class="temp">day : --&#176;</div>
+                <div class="temp">night : --&#176;</div>
+            </div>
+            <div class="weather-item">
+                <div class="day">Friday</div>
+                <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon">
+                <div class="temp">day : --&#176;</div>
+                <div class="temp">night : --&#176;</div>
+            </div>
+            <div class="weather-item">
+                <div class="day">Saturday</div>
+                <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon">
+                <div class="temp">day : --&#176;</div>
+                <div class="temp">night : --&#176;</div>
+            </div>
+            <div class="weather-item">
+                <div class="day">Sunday</div>
+                <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon">
+                <div class="temp">day : --&#176;</div>
+                <div class="temp">night : --&#176;</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+<script src="script.js"></script>
+</html>
