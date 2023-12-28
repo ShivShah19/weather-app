@@ -66,7 +66,6 @@ function getWeatherData() {
         console.log(data);
         showWeatherdata(data);
       });
-    // geoLocation(latitude, longitude);
   });
 }
 
