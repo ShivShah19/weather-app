@@ -44,7 +44,7 @@ body {
 }
 
 .date-time .date {
-    font-size: 2em;
+    font-size: 30px;
 }
 
 .location-container {
@@ -64,11 +64,15 @@ body {
 .current-info .current-weather {
     display: flex;
     flex-direction: column;
-    background-color: rgba(167, 195, 248, 0.6);
+    /* background-color: rgba(167, 195, 248, 0.6); */
     padding: 20px;
     border-radius: 10px;
     margin: 10px 0;
     border: 2px solid #fff;
+    /* border-radius: 50px; */
+    background: linear-gradient(145deg, #4a82e2, #6f9ce9);
+    box-shadow: 20px 20px 60px #5a95fb,
+        -20px -20px 60px #5b97ff;
 }
 
 .current-info .current-weather .weather-data {
@@ -78,7 +82,8 @@ body {
 }
 
 .future-forecast {
-    background-color: var(--light-bg-color);
+    /* background-color: var(--light-bg-color); */
+    border-top: 2px solid #ffffff5c;
     padding: 10px;
     position: fixed;
     bottom: 0;
@@ -104,7 +109,11 @@ body {
     border: 2px solid #fff;
     border-radius: 10px;
     padding: 1rem;
-    background-color: rgba(166, 194, 247, 0.4);
+    /* background-color: rgba(166, 194, 247, 0.4); */
+    /* border-radius: 50px; */
+    background: #6d9df6;
+    box-shadow: inset 20px 20px 60px #7ea9f9,
+        inset -20px -20px 60px #7ab3fe;
 }
 
 .future-forecast .today .day {
@@ -119,14 +128,18 @@ body {
     justify-content: center;
     margin: 0 10px;
     border: 2px solid #fff;
-    border-radius: 10px;
+    border-radius: 30px;
     padding: 1rem;
-    background-color: rgba(166, 194, 247, 0.4);
+    /* background-color: rgba(13, 13, 13, 0.4); */
+    /* border-radius: 50px; */
+    background: #8baff1;
+    box-shadow: inset 20px 20px 60px #679bfc,
+        inset -20px -20px 60px #5da1fb;
 }
 
 .day {
     padding: 5px 10px;
-    background-color: rgb(127, 178, 255);
+    background-color: #1974fde3;
     border-radius: 50px;
     text-align: center;
 }
